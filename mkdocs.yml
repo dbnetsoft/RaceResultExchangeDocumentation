@@ -5,7 +5,7 @@ repo_name: 'dbnetsoft/RaceResultExchangeDocumentation'
 repo_url: 'https://github.com/dbnetsoft/RaceResultExchangeDocumentation'
 nav:
     - Home: index.md
-    - configuration.md
-    - usage.md
+    - configuration/configuration.md
+    - usage/usage.md
 theme:
     name: material
