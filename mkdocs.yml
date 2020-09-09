@@ -3,4 +3,4 @@ nav:
     - Home: index.md
     - Configuration: configuration.md
 theme:
-    name: bootstrap4
+    name: material
