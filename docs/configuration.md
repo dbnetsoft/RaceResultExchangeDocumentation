@@ -4,7 +4,7 @@ Most settings need to be done in the software itself (`Settings` button in the n
 
 ## 1. Link Race Result Account and Event `RaceResultExchange`
 
-The license is tied to your Race Result customer ID and is therefore already populated. If you are running a demo version, you can enter the customer ID manually. Also the account’s pasword need to be entered.
+The license is tied to your Race Result customer ID and is therefore already populated. If you are running a demo version, you can enter the customer ID manually. Also the accountâ€™s pasword need to be entered.
 
 All events need to be available in your Race Result online account. Still you can check your event out and using it off-line. Tick the apropriate checkbox, and if off-line mode, specify the hostname of the computer running the Race Result Web server.
 
@@ -18,7 +18,7 @@ In order to be able to interact with Race Result, you need to setup distinct Sim
 
 ![Screenshot](../images/configuration_rr.png)
 
-Start Race Result 12 from your online account and go to your event. In Main Window go to Access Rights/Simple API. Now you need to add the following four Simple API rows – all of Type Custom:
+Start Race Result 12 from your online account and go to your event. In Main Window go to Access Rights/Simple API. Now you need to add the following four Simple API rows â€“ all of Type Custom:
 
 * rawdata/get
 * rawdata/delete
