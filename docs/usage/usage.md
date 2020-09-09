@@ -1,4 +1,4 @@
-# Usage
+Ôªø# Usage
 
 Start RaceResultExchange by using the desktop icon.
 
@@ -22,10 +22,10 @@ The contents of the photofinish results file are displayed to the left, the curr
 
 ### Walkthrough
 
-1. Tick the toggle button and set it to ìSync Onî ñ with this enabled, changes in the photofinish file are automatically synced 
-2. Click on the ìLoad Photofinishî button and select the results file from the photofinish software
+1. Tick the toggle button and set it to ‚ÄúSync On‚Äù ‚Äì with this enabled, changes in the photofinish file are automatically synced 
+2. Click on the ‚ÄúLoad Photofinish‚Äù button and select the results file from the photofinish software
 3. The contents of the file are automatically pushed to Race Result and you should see the exact same results to the right 
-If you want to not auto sync you can manually click the ìPush Resultsî buttons in the middle to sync once.
+If you want to not auto sync you can manually click the ‚ÄúPush Results‚Äù buttons in the middle to sync once.
 
 ## Photofinish Socket Sync
 
@@ -48,7 +48,7 @@ Right-Click on the Results Port button and select Settings. Expand the TcpClient
 
 ### Walkthrough
 
-1. Make sure that the Connector is connected to the Photofinish software ñ the Results Port button must be green. 
+1. Make sure that the Connector is connected to the Photofinish software ‚Äì the Results Port button must be green. 
 1. Set the Sync toggle to Sync On
 1. Decide whether you want to sync finish time-of-day or net times (with FinishLynx it does not make a difference as only ALGE products output both time-of-day and net time)
 1. In the photofinish software, evaluate a bib number or change results manually. 
