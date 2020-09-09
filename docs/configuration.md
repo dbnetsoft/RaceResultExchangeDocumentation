@@ -1,4 +1,4 @@
-# Configuration
+﻿# Configuration
 
 Most settings need to be done in the software itself (`Settings` button in the navigation panel to the left), some settings directly in Race Result 12.
 
