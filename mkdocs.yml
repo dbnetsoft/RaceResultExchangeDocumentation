@@ -2,9 +2,10 @@ site_name: RaceResultExchange Documentation
 site_author: 'Tobias Däuber'
 docs_dir: docs/
 repo_name: 'dbnetsoft/RaceResultExchangeDocumentation'
-repo_url: 'https://github.com/mhausenblas/actions-sandbox'
+repo_url: 'https://github.com/dbnetsoft/RaceResultExchangeDocumentation'
 nav:
     - Home: index.md
-    - Configuration: configuration.md
+    - configuration.md
+    - usage.md
 theme:
     name: bootstrap4
