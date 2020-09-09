@@ -8,4 +8,4 @@ nav:
     - configuration.md
     - usage.md
 theme:
-    name: bootstrap4
+    name: material
