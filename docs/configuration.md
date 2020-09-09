@@ -10,13 +10,13 @@ All events need to be available in your Race Result online account. Still you ca
 
 Click on the three dots button to fetch all events from your account and select the one you want to use.
 
-![Screenshot](images/configuration_linkrr.png)
+![Screenshot](../images/configuration_linkrr.png)
 
 ## 1. Setup Race Result Event `Race Result 12`
 
 In order to be able to interact with Race Result, you need to setup distinct Simple API endpoints and link it to the connector. Thes ednpoints are valid only for the given event and need to be created for each event you want to use.
 
-![Screenshot](images/configuration_rr.png)
+![Screenshot](../images/configuration_rr.png)
 
 Start Race Result 12 from your online account and go to your event. In Main Window go to Access Rights/Simple API. Now you need to add the following four Simple API rows – all of Type Custom:
 
@@ -31,4 +31,4 @@ Now we need to let the connector know the endpoints we just created. Go to Simpl
 
 Next click on the button with the three dots and select the timing point you want to use.
 
-![Screenshot](images/configuration_api.png)
+![Screenshot](../images/configuration_api.png)
