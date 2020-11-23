@@ -8,7 +8,7 @@ RaceResultExchange is a small software that will allow your photofinish data to 
 
 RaceResultExchange needs the following prerequisites:
 
-* `Windows 10 x86 or x64` - The software may also run on older operating systems of Windows but has not been tested.
+* `Windows 10 x86 or x64`
 * `.NET 5.0 Runtime` - [Download](https://dotnet.microsoft.com/download/dotnet/current/runtime)
 
 ## Installation
