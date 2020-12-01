@@ -29,6 +29,6 @@ Start Race Result 12 from your online account and go to your event. In Main Wind
 
 Now we need to let the connector know the endpoints we just created. Go to Simple/Custom API tab and click the Download button. Now all endpoints will have some text in it.
 
-Next click on the button with the three dots and select the timing point you want to use.
+Next click on the button with the three dots and select the timing point you want to use. Attention: The name of timing points should not contain special characters in it as some versions of the SES will transfer incomplete names.
 
 ![Screenshot](configuration_api.png)
