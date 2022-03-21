@@ -7,5 +7,6 @@ nav:
     - Home: index.md
     - configuration/configuration.md
     - usage/usage.md
+    - Displayboards: displayboards/index.md
 theme:
-    name: material
+    name: mkdocs
