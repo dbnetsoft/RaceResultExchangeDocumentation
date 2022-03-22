@@ -1,34 +1,30 @@
 ﻿# Configuration
 
+A couple of steps have to be done in order to link RaceResult12 and RaceResultExchange. 
+
+## Link Race Result Account and Event
+
+This settings can be found in `File` - `Settings`:
+
+* The Customer ID is bound to yur license and already pre-filled
+* Enter the password for this customer ID in RR12
+* Select if you want to use an event that is online or offline. When working offline please specify the IP address of the computer running RR12 or `localhost` for the same machine
+* Select an event to be working with (you can also select the event from the Main window)
+
 Most settings need to be done in the software itself (`Settings` button in the navigation panel to the left), some settings directly in Race Result 12.
-
-## Link Race Result Account and Event `RaceResultExchange`
-
-The license is tied to your Race Result customer ID and is therefore already populated. If you are running a demo version, you can enter the customer ID manually. Also the account’s pasword need to be entered.
-
-All events need to be available in your Race Result online account. Still you can check your event out and using it off-line. Tick the apropriate checkbox, and if off-line mode, specify the hostname of the computer running the Race Result Web server.
-
-Click on the three dots button to fetch all events from your account and select the one you want to use.
 
 ![Screenshot](configuration_linkrr.png)
 
-## Setup Race Result Event `Race Result 12`
+## Setup Race Result Event
 
-In order to be able to interact with Race Result, you need to setup distinct Simple API endpoints and link it to the connector. Thes ednpoints are valid only for the given event and need to be created for each event you want to use.
+The RR12 event does not need to be setup in any specific way). Our tool will get the data directly and is not relying on Simple API definitions.
 
-![Screenshot](configuration_rr.png)
+In order to use trigger sendings or drive MLED display boards, RRExchange needs to receive the passings instantly to act upon them. This is achieved by Exports. You have to create one exporter and have it connect to RRExchange: 
 
-Start Race Result 12 from your online account and go to your event. In Main Window go to Access Rights/Simple API. Now you need to add the following four Simple API rows – all of Type Custom:
+* Create one exporter 
+    * Apply to all Timing Points
+    * No filter
+    * Destination is port 3611 on the machine that the RREXchange is running on
+    * Export Data needs to contain the Timing point name and bib number in that order like so: `[RD_TimingPoint] & ";" & [RD_Bib]`
 
-* rawdata/get
-* rawdata/delete
-* rawdata/addmanual
-* timingpoints/get
-
-## Setup Race Result API `RaceResultExchange`
-
-Now we need to let the connector know the endpoints we just created. Go to Simple/Custom API tab and click the Download button. Now all endpoints will have some text in it.
-
-Next click on the button with the three dots and select the timing point you want to use. Attention: The name of timing points should not contain special characters in it as some versions of the SES will transfer incomplete names.
-
-![Screenshot](configuration_api.png)
+    ![Screenshot](rrexporter.png)
