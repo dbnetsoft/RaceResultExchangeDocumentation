@@ -7,7 +7,7 @@ nav:
     - Home: index.md
     - Setup: configuration/configuration.md
     - Photofinish:
-        - Setup: photofinishsync/ijdex.md
+        - Setup: photofinishsync/index.md
     - Displayboards: 
         - General: displayboards/index.md
         - Operation Modes: displayboards/modes.md
