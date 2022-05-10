@@ -5,8 +5,19 @@ repo_name: 'dbnetsoft/RaceResultExchangeDocumentation'
 repo_url: 'https://github.com/dbnetsoft/RaceResultExchangeDocumentation'
 nav:
     - Home: index.md
-    - configuration/configuration.md
-    - usage/usage.md
-    - Displayboards: displayboards/index.md
+    - Setup: configuration/configuration.md
+    - Photofinish:
+        - Setup: photofinishsync/index.md
+    - Displayboards: 
+        - General: displayboards/index.md
+        - Operation Modes: displayboards/modes.md
+        - FDS MLED: 
+            - Index: displayboards/fdsmled.md
+            - Formatting: displayboards/fdsmled_formatting.md
 theme:
     name: mkdocs
+
+markdown_extensions:
+    - admonition
+    - attr_list
+    - def_list
