@@ -8,7 +8,11 @@ Placeholders can be inserted similar to RaceResult 12 by surrounding special fie
 
 The placeholders can be modified by using formatters that follow with a `:` after the field name, e.g. `[clock:8,c]` will align the clock field center within 8 characters. The available options are: 
 
-* `[{fieldName}:{count},{alignment}]` where count is the number of characters (trimmed if longer or padded if shorter) and the alignment within (`r` for right aligned, `c` for center aligned and `l` for left aligned)
+* `[{fieldName}:{count},{alignment},[formatter}]]` where count is the number of characters (trimmed if longer or padded if shorter) and the alignment within (`r` for right aligned, `c` for center aligned and `l` for left aligned). Any of the formetters can be ommitted.
+
+Formatter string depends on the type of data: 
+* `clock` is of type date and time and can be formatted like "HH:mm:ss" as described here: [Date and time custom format strings](https://docs.microsoft.com/en-us/dotnet/standard/base-types/)custom-date-and-time-format-strings
+* `countdown` and `runtime` are of type TimeSpan and can be formatted like "hh\:mm\:ss' as described here: [TimeSpan custom format strings](https://docs.microsoft.com/en-us/dotnet/standard/)base-types/custom-timespan-format-strings
 
 ## Placeholders
 
@@ -17,7 +21,7 @@ You can use the following placeholders everywhere:
 * `clock` contains the current time of day
 * `countdown` contains the countdown to the given target time
 * `runtime` contains the running time from the given target time
-* `textline{x}]` contains the freetext lines, replace {x} with your line number starting from 1
+* `textline{x}` contains the freetext lines, replace {x} with your line number starting from 1
 
 In Time trial mode, the following placeholders can be used in addition: 
 
