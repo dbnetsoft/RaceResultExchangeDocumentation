@@ -17,14 +17,14 @@ Most settings need to be done in the software itself (`Settings` button in the n
 
 ## Setup Race Result Event
 
-The RR12 event does not need to be setup in any specific way). Our tool will get the data directly and is not relying on Simple API definitions.
+The RR12 event does not need to be setup in any specific way. Our tool will get the data directly and is not relying on Simple API definitions.
 
-In order to use trigger sendings or drive MLED display boards, RRExchange needs to receive the passings instantly to act upon them. This is achieved by Exports. You have to create one exporter and have it connect to RRExchange: 
+In order to use trigger sendings or drive display boards, RRExchange needs to receive the passings instantly to act upon them. This is achieved by Exports. You have to create one exporter and have it connect to RRExchange: 
 
-* Create one exporter 
+* Create one exporter as follows:
     * Apply to all Timing Points
     * No filter
-    * Destination is port 3611 on the machine that the RREXchange is running on
+    * Destination is port 3611 on the machine that the RREXchange is running on (local webserver needs to be started usually)
     * Export Data needs to contain the Timing point name and bib number in that order like so: `[RD_TimingPoint] & ";" & [RD_Bib]`
 
     ![Screenshot](rrexporter.png)

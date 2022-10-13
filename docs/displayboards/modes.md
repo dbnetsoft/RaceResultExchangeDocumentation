@@ -12,7 +12,7 @@ The following operation modes are provided:
 * `Passings` shows the passings template
 * `Timetrial` shows the time trial template
 
-For a list of all possible placeholders to be used in the templates see [formatting](fdsmled_formatting.md) for further details.
+For a list of all possible placeholders to be used in the templates see [scripting](scripting.md) for further details.
 
 ## Countdown Mode
 
