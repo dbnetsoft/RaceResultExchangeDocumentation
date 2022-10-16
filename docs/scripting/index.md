@@ -15,7 +15,7 @@ Standard fields (e.g. for timing point), User-defined fields or User-defined fun
 
 ## Scripting
 
-Scripting is based on the powerful [Scriban scripting language](https://github.com/scriban/scriban). You can find more information on the language features [here](https://github.com/scriban/scriban/blob/master/doc/language.md). More information on built-in functions can be found [here](https://github.com/scriban/scriban/blob/master/doc/builtins.md).
+Scripting is based on the powerful [Scriban scripting language](https://github.com/scriban/scriban). You can find more information on the language features [here](https://github.com/scriban/scriban/blob/master/doc/language.md). More information on built-in functions can be found [here](https://github.com/scriban/scriban/blob/master/doc/builtins.md). Different than stated in the scriban docs, Race Result Exchange is not changing the casing of variables or functions. Even more, you can use `string.ends_with`or `string.EndsWith`, whereas the later is preferred as it means the declaration of the method is not touched. 
 
 The following script will just pull the field `[LastName]` from RR12 and outputs it:
 
@@ -23,7 +23,7 @@ The following script will just pull the field `[LastName]` from RR12 and outputs
 
 The following script will modify the field from RR12 and pads it to 12 characters and center aligns it if need be. This is possible by using the | pipe character: The expression the left is forwasrded to a function that is given by the name after the pipe. 
 
-    {{ [LastName] | trim_pad 12 "Center" }}
+    {{ [LastName] | TrimPad 12 "Center" }}
 
 
 
