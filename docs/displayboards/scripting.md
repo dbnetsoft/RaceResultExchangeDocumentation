@@ -1,6 +1,6 @@
 ﻿# Scripting
 
-See [scripting](../scripting/scripting.md) for further details on how scripting and placeholders work.
+See [scripting](../scripting/index.md) for further details on how scripting and placeholders work.
 
 ## Internal Fields
 
