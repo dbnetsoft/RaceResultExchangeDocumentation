@@ -11,6 +11,7 @@ The following functions are available:
 * `mled.FillColor "ColorName"`: This function will change the background color of the board.
 
 Color names can be any of the following:
+
 * Black
 * Red
 * Gree
@@ -25,4 +26,4 @@ Color names can be any of the following:
 
 ## Examples
 
-Showing the current time of day with only hours and minutes in red: `{{ mled.Color "Red" }}{{ Clock | Format "HH:mm" }}
+Showing the current time of day with only hours and minutes in red: `{{ mled.Color "Red" }}{{ Clock | Format "HH:mm" }}`
