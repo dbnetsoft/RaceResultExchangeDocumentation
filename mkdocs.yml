@@ -6,7 +6,9 @@ repo_url: 'https://github.com/dbnetsoft/RaceResultExchangeDocumentation'
 nav:
     - Home: index.md
     - Setup: configuration/configuration.md
-    - Scripting: scripting/index.md
+    - Scripting: 
+        - General: scripting/index.md
+        - Examples: scripting/examples.md
     - Photofinish:
         - Setup: photofinishsync/index.md
     - Displayboards: 
@@ -14,10 +16,10 @@ nav:
         - Operation Modes: displayboards/modes.md
         - Scripting: displayboards/scripting.md
         - FDS MLED: 
-            - Index: displayboards/fdsmled/index.md
+            - General: displayboards/fdsmled/index.md
             - Scripting: displayboards/fdsmled/scripting.md
         - ALGE-Timing GAZ/DLine: 
-            - Index: displayboards/algegazdline/index.md
+            - General: displayboards/algegazdline/index.md
             - Scripting: displayboards/algegazdline/scripting.md
 theme:
     name: mkdocs

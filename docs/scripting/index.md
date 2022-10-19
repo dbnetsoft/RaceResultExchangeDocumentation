@@ -21,10 +21,31 @@ The following script will just pull the field `[LastName]` from RR12 and outputs
 
     [LastName]
 
-The following script will modify the field from RR12 and pads it to 12 characters and center aligns it if need be. This is possible by using the | pipe character: The expression the left is forwasrded to a function that is given by the name after the pipe. 
+The following script will modify the field from RR12 and pads it to 12 characters and center aligns it if need be. This is possible by using the | pipe character: The expression the left is forwasrded to a function that is given by the name after the pipe. The forwarded argument will be the first in the function arguments list.
 
     {{ [LastName] | TrimPad 12 "Center" }}
 
+produces the same result as 
 
+    {{ TrimPad "[LastName]" 12 "Center" }}
 
+## Functions
 
+You can find more information on the out-of-the-box Scriban functions [here](https://github.com/scriban/scriban/blob/master/doc/builtins.md).
+
+RaceResultExchange also comes with a wide range of utility functions:
+
+* `FormatRaceResult <timespan> "<format>"`
+Converts a given timespan or datetime and formats it using RaceResult12 formating syntax. 
+Example: `{{ Runtime | FormatRaceResult "Hh:mm:ss,k" }}` produces `2:55:87,7`.
+
+* `TrimPad <string> <length> "<alignment>"`
+Trims the or pads the given string to always be as long as length and aligns it by the alignment values ("Left", "Righ", "Center")
+Example: `{{ "Hallo, this text is too long" | TrimPad 8 "Center" }}` produces `Hallo, t`.
+
+* `Format <object> "<format>"`
+Formats any object (string, datetime. timespan, number) with the given formater in C# style
+Example: `{{ date.now | Format "HH:mm" }}` produces `12:32`.
+
+## Examples
+Examples are given [here](.examples.md) 
