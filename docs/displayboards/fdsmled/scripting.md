@@ -2,7 +2,7 @@
 
 ## Colors
 
-FDS MLED panels also support setting colors. A lot of colors are possible to be used with FDS MLED boards, e.g. Red and Green or White. 
+FDS MLED panels also support setting colors. 
 
 The following functions are available: 
 

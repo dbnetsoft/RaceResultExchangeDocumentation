@@ -16,13 +16,13 @@ For a list of all possible placeholders to be used in the templates see [scripti
 
 ## Countdown Mode
 
-In countdown mode, the field `[countdown]` is counting down a target time. After the target time is reached, you can select what mode to show next (e.g. stay on the countdown mode or show the runtime mode).
+In countdown mode, the field `[countdown]` is counting down a target/reference time. After the target time is reached, you can select what mode to show next (e.g. stay on the countdown mode or show the runtime mode).
 
 ![Screenshot](countdown.png)
 
 ## Runtime Mode
 
-In runtime mode, the field `[runtime]` is counting up from a target time. Before the target time is reached, you can select what mode to show first (e.g. stay on the runtime mode or show the countdown or clock).
+In runtime mode, the field `[runtime]` is counting up from a target/reference time. Before the target time is reached, you can select what mode to show first (e.g. stay on the runtime mode or show the countdown or clock).
 
 ![Screenshot](runtime.png)
 
@@ -58,4 +58,4 @@ The timetrial templazte will be used before the finish, the passings template wi
 
 In the box on the right you see the bib numbers are currently queued up at the finish and also queued up for arriving next at the finish. 
 
-![Screenshot](passings.png)
+![Screenshot](timetrial.png)

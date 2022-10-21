@@ -6,10 +6,7 @@ We currently support the following display boards to be driven:
 
 * FDS MLED
 * ALGE-Timing D-Line
-
-We are planning to support the following boards in the future: 
-
-* Videowall/LED screens
+* Videowall/LED screens (via dbnetsoft.Screens software)
 
 ## Setup
 
