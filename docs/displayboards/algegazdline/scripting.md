@@ -5,7 +5,7 @@
 GAZ/DLines can show rank and bib simultaneously together with the time. However, bib can only be three digits and rank only two digits. Therefore it is best to format the fields pulled from RR12 accordingly: 
 
 * Bib: `{{ [Bib] | TrimPad 3 "Center" }}` to trim it to three digits and align center
-* Rank: `{{ [RankFieldFromRR12] | TrimPad 2 "Center" }}` to trim it to two digits and align center. Best is for the field to onlöy contain the number, no formatter like a period at the end of the rank.
+* Rank: `{{ [RankFieldFromRR12] | TrimPad 2 "Center" }}` to trim it to two digits and align center. Best is for the field to only contain the number, no formatter like a period at the end of the rank.
 
 ## Time
 
