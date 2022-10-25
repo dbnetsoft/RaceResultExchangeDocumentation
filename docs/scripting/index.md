@@ -35,17 +35,11 @@ You can find more information on the out-of-the-box Scriban functions [here](htt
 
 RaceResultExchange also comes with a wide range of utility functions:
 
-* `FormatRaceResult <timespan> "<format>"`
-Converts a given timespan or datetime and formats it using RaceResult12 formating syntax. 
-Example: `{{ Runtime | FormatRaceResult "Hh:mm:ss,k" }}` produces `2:55:87,7`.
-
-* `TrimPad <string> <length> "<alignment>"`
-Trims the or pads the given string to always be as long as length and aligns it by the alignment values ("Left", "Righ", "Center")
-Example: `{{ "Hallo, this text is too long" | TrimPad 8 "Center" }}` produces `Hallo, t`.
-
-* `Format <object> "<format>"`
-Formats any object (string, datetime. timespan, number) with the given formater in C# style
-Example: `{{ date.now | Format "HH:mm" }}` produces `12:32`.
+| Method      | Description                          |
+| ----------- | ------------------------------------ |
+| `FormatRaceResult <timespan> "<format>"`       | Converts a given timespan or datetime and formats it using RaceResult12 formating syntax. Example: `{{ Runtime | FormatRaceResult "Hh:mm:ss,k" }}` produces `2:55:87,7`.  |
+| `TrimPad <string> <length> "<alignment>"`       | Trims the or pads the given string to always be as long as length and aligns it by the alignment values ("Left", "Righ", "Center") Example: `{{ "Hallo, this text is too long" | TrimPad 8 "Center" }}` produces `Hallo, t`. |
+| `Format <object> "<format>"`    | Formats any object (string, datetime. timespan, number) with the given formater in C# style. Example: `{{ date.now | Format "HH:mm" }}` produces `12:32`. |
 
 ## Examples
-Examples are given [here](.examples.md) 
+Examples are given [here](examples.md) 
