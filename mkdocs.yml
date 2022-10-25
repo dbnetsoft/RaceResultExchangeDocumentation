@@ -22,7 +22,9 @@ nav:
             - General: displayboards/algegazdline/index.md
             - Scripting: displayboards/algegazdline/scripting.md
 theme:
-    name: mkdocs
+    name: material
+    features:
+        - navigation.tabs
 
 markdown_extensions:
     - admonition
