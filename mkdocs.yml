@@ -4,8 +4,10 @@ docs_dir: docs/
 repo_name: 'dbnetsoft/RaceResultExchangeDocumentation'
 repo_url: 'https://github.com/dbnetsoft/RaceResultExchangeDocumentation'
 nav:
-    - Home: index.md
-    - Setup: configuration/configuration.md
+    - Home:
+        - Introduction: index.md
+        - Installation: setup/installation.md
+        - Setup: setup/configuration.md
     - Scripting: 
         - General: scripting/index.md
         - Examples: scripting/examples.md
