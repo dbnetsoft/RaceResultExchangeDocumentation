@@ -22,9 +22,9 @@ The diff field from RR12 is captured in the variable diffString. Then it is chec
     var diffString = "[RR_Diff]"
     var colorString = ""
     if string.StartsWith diffString "-"
-        colorString = mled.Color "Green"
+        colorCommand = "Green"
     else 
-        colorString = mled.Color "Red"
+        colorString = "Red"
     end
-    colorString + TrimPad diffString 8 "Right"
+    mled.Color colorString + TrimPad diffString 8 "Right"    
     }}

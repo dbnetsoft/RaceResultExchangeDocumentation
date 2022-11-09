@@ -6,16 +6,21 @@ repo_url: 'https://github.com/dbnetsoft/RaceResultExchangeDocumentation'
 nav:
     - Home:
         - Introduction: index.md
-        - Installation: setup/installation.md
-        - Setup: setup/configuration.md
+        - Installation: home/installation/index.md
+        - Configuration: home/configuration/index.md
     - Scripting: 
         - General: scripting/index.md
         - Examples: scripting/examples.md
     - Photofinish:
-        - Setup: photofinishsync/index.md
+        - General: photofinishsync/index.md
     - Displayboards: 
         - General: displayboards/index.md
-        - Operation Modes: displayboards/modes.md
+        - Operation Modes: 
+            - Overview: displayboards/modes/index.md
+            - Countdown: displayboards/modes/countdown/index.md
+            - Runtime: displayboards/modes/runtime/index.md
+            - Passings: displayboards/modes/passings/index.md
+            - Timetrial: displayboards/modes/timetrial/index.md
         - Scripting: displayboards/scripting.md
         - FDS MLED: 
             - General: displayboards/fdsmled/index.md
@@ -58,3 +63,7 @@ markdown_extensions:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
     - def_list
+    - md_in_html
+
+plugins:
+  - glightbox

@@ -16,18 +16,20 @@ Also on the right, you can select a `Contest` to not overwrite reuslts from othe
 
 ### Photofinish File Sync
 
+File sync establishes a link between a local file (or a file located on a shared network path) and RR12 timing point. Whenever the file changes, RaceResultExchange will publish the changes only.
+
 Select `File` in the left box.
-Select the file containing the photofinish results form a network drive or local drive. This is a `*.LIF` file or a `*.HEATRESULTXML` file for OptiC3. 
+Select the file containing the photofinish results form a network drive or local drive. This is a `*.LIF` file for FinishLynx or a `*.HEATRESULTXML` file for OptiC3. 
 
 ### Potofinish Socket Sync
 
-The connector can receive photofinish results directly via a socket (and not tedious files on network shares) by ALGE-Timing OptiC3.NET software or our own Photofinish software. 
+RaceResultExchange can receive photofinish results directly via a network socket by ALGE-Timing OptiC3.NET software or our own [Photofinish software](https://www.dbnetsoft.com/turnkeysoftware/photofinish/). 
 
 Select `Socket` in the left box.
-You can configure the port for the socket sync by right-clicking on the Results Port label and click Settings. 
+You can configure the port for the socket sync (default is 4532) and also specify the IP/hostname the photofinish software is running on by right-clicking on the Results Port label and click Settings. 
 
 #### Setup ALGE-Timing OptiC3.NET for socket sync
 
 ![Screenshot](SocketSyncAlge.png)
 
-Go to the ATL Settings in top icon menu and open OptiXmlSocket. There you can specifiy the TCP port or leave the default (4532). Make sure to have SendResultlistOnHeatDataChanged enabled, as otherwise results are only sent when pushing them manually.
+Go to the ATL Settings in top icon menu and open OptiXmlSocket. There you can specifiy the TCP port or leave the default (4532 in TCP Server section). Make sure to have SendResultlistOnHeatDataChanged enabled, as otherwise results are only sent when pushing them manually. By default, the photofinish software creates a TCP/IP Server and thus RaceResultExchange connects as a TCP/IP Client. The port numbers have to match.
