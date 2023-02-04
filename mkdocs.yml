@@ -10,6 +10,7 @@ nav:
         - Configuration: home/configuration/index.md
     - Scripting: 
         - General: scripting/index.md
+        - Functions: scripting/functions.md
         - Examples: scripting/examples.md
     - Photofinish:
         - General: photofinishsync/index.md

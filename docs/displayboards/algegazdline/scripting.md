@@ -11,16 +11,15 @@ GAZ/DLines can show rank and bib simultaneously together with the time. However,
 
 GAZ/DLines expect a very specific format for it show information on it at all. Therefore besides properly formatting bib and rank, also the time needs to be formatted in a special way. Therefore some helper functions come in handy: 
 
-* `ToTimeSpan` - takes the field from RR12 and converts it to a timespan. Therefore RR12 can submit a decimal time or a formatted time.
-* `gaz.FormatTimeSpan "precision"` - this will format the converted timespan to a given precision and makes sure that the format matche the ALGE-Timing protocol.
+## Functions
+
+| Method      | Parameters | Description                          |
+| ----------- | -----------| ------------------------------------ |
+| `gaz.FormatTime`| `"precision"` | Formats the converted timespan to a given precision and makes sure that the format matche the ALGE-Timing protocol <br />Example: `{{ "[RuntimeDisplayboard]" | gaz.FormatTime "Hundredths"  }}` |
 
 `precision` can be any of the following enumeration: 
 
-* `Seconds`
-* `Tenths`
-* `Hundredths`
-* `Thousands`
-
-Example:
-
-`{{ "[RuntimeDisplayboard]" | ToTimeSpan | gaz.FormatTimeSpan "Hundredths"  }}`
+* `"Seconds"` or `0`
+* `"Tenths"` or `1`
+* `"Hundredths"` or `2`
+* `"Thousands"` or `3`
