@@ -30,7 +30,7 @@ The diff field from RR12 is captured in the variable diffString. Then it is chec
     }}
 
 
-## Use of globals
+## Clock/Countdown/Runtime (via RR12 Lists Globals)
 
 The following script allows to show the current clock before the start of the race, a runtime during the race and a gap time to winner as soon as the first athlete finishes. 
 
@@ -95,4 +95,28 @@ The pulled global list entries are available as variables in each script then. T
     
         
     end
+    }}
+
+## Data from JSON APIs (via Globals)
+
+Besides pulling RR12 lists periodically and have the rows available, RRExchange can also query any HTTP GET web api and process it's JSON body.  
+
+The following script queries the sample data from Racemap's Demo API and shows the current distance to finish from the first tracker. 
+
+![RR12 List](globals_racemap.png)
+
+The pulled global list return JSON body is available as a variable in each script then. They are identified by <NameOfGlobal>.Data, e.g. `Racemap.Data.location` `Racemap.Data.starters[0].current.toFinish`.
+
+    {{
+        "Dist. to Finish:  " + Racemap.Data.starters[0].current.toFinish + "m"
+    }}
+
+The script below iterates through all starters and display only from bib 052 it's distance to finish: 
+
+    {{
+        for starter in Racemap.Data.starters
+            if (starter.startNumber == "052")
+            "Bib " + starter.startNumber + ": " + starter.current.toFinish + "m"
+            end
+        end
     }}
