@@ -1,18 +1,19 @@
-# Compilation
+# General
 
-1. Download and install Pythoon
-2. Install MKDocs: `python -m pip install mkdocs`
-2. Install Lightbox plugin: `python -m pip install mkdocs-glightbox`
+### What is RaceResultExchange <a href="#what-is-raceresultexchange" id="what-is-raceresultexchange"></a>
 
-# Serve
+RaceResultExchange is a small software that exchanges data back-and-forth with RaceResult12.
 
-1. Change to your documentation base directory
-2. Execute `python -m mkdocs serve`
+### Feature Overview <a href="#feature-overview" id="feature-overview"></a>
 
-# Deploy
+The following features are currently available:
 
-For deploying to github pages, we use this action [here](https://github.com/mhausenblas/mkdocs-deploy-gh-pages)
+* Syncing of photofinish results to a RR12 timing point (from a Finishlynx file or directly via ALGE-Timing OptiC3.NET socket)
+* Uploading of timing impulses to a RR12 timing points (e.g. via an ALGE-Timing Timy or Tag Heuer CP540)
+* Driving various displayboards (e.g. FDS MLED, ALGE-Timing GAZ/DLine or LED walls)
+* Trigger Sending of HTTP POST or GET when a detection occurs
+* Bulkd sending to a list of recipients with HTTP POST
 
-# Theme upgrade 
-
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+{% embed url="https://www.youtube.com/watch?t=1s&v=XicU4O1dWq8" %}
+Feature Overview on Youtube
+{% endembed %}
