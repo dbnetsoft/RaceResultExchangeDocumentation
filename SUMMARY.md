@@ -20,3 +20,4 @@
 * [Scripting](scripting/README.md)
   * [Functions](scripting/functions.md)
   * [Examples](scripting/examples.md)
+* [Release Notes](release-notes.md)
