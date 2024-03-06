@@ -24,4 +24,5 @@
 * [Scripting](scripting/README.md)
   * [Functions](scripting/functions.md)
   * [Examples](scripting/examples.md)
+  * [Globals](scripting/globals.md)
 * [Release Notes](release-notes.md)

@@ -51,7 +51,7 @@ This list is then pulled via RRExchange globals feature periodically into the so
 
 <figure><img src="https://dbnetsoft.github.io/RaceResultExchangeDocumentation/scripting/globals.png" alt="" width="375"><figcaption></figcaption></figure>
 
-The pulled global list entries are available as variables in each script then. They are identified by .First., e.g. `Globals.First.Starttime` for a RR12 field named `Starttime` in a globals list `Globals`.
+The pulled global list entries are available as variables in each script then. They are identified by .First., e.g. `GlobalsName.First.Starttime` for a RR12 field named `Starttime` in a globals list `GlobalsName`.
 
 ```
 {{
