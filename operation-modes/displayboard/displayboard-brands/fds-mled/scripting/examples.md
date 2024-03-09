@@ -45,7 +45,7 @@ This list is then pulled via RRExchange globals feature periodically into the so
 
 [![Globals](https://dbnetsoft.github.io/RaceResultExchangeDocumentation/scripting/globals.png)](https://dbnetsoft.github.io/RaceResultExchangeDocumentation/scripting/globals.png)
 
-The pulled global list entries are available as variables in each script then. They are identified by .First., e.g. `Globals.First.Starttime` for a RR12 field named `Starttime` in a globals list `Globals`.
+The pulled global list entries are available as variables in each script then. They are identified by the name of the global. Also you can shortcut to the first row by using `.First`., e.g. `GlobalsName.First.Starttime` for a RR12 field named `Starttime` in a globals list `GlobalsName`.
 
 ```
 {{
@@ -53,8 +53,8 @@ The pulled global list entries are available as variables in each script then. T
 now = timespan.Now | ToSeconds
 
 # Fetch race start time and winner time from Globals List and convert to seconds (this way RR12 field can be seconds or HH:mm:ss string
-raceStartedAt = Globals.First.Starttime | ToSeconds
-winnerFinishedAt = Globals.First.Winnertime  | ToSeconds
+raceStartedAt = GlobalsName.First.Starttime | ToSeconds
+winnerFinishedAt = GlobalsName.First.Winnertime  | ToSeconds
 
 # Determine race states
 isRaceStarted = raceStartedAt > 0
