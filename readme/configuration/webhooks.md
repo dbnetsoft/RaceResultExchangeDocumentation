@@ -2,7 +2,7 @@
 
 Web Hooks need only to be created when you want to use the [Triggered Action](../../operation-modes/triggered-actions.md) feature (e.g. print a bib when new competitor is created) on participant changes.
 
-Depending whether you work online of offline, your RR12 event needs to be configured slightly different.
+Depending whether you work online or offline, your RR12 event needs to be configured slightly different.
 
 ## Online
 
