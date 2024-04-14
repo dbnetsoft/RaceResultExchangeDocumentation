@@ -22,3 +22,5 @@ Most settings need to be done in the software itself (`Settings` button in the n
 The RR12 event does not need to be setup with Simple API to pull data.&#x20;
 
 However, you might want to setup [web hooks ](webhooks.md)(for acting upon participant changes) or [exporters ](exporter.md)(for acting upon new raw data).&#x20;
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
