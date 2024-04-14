@@ -23,17 +23,17 @@ The following exporter need to be configured in RR12 (Timing - Exporters & Track
 
 ## Offline
 
-When working offline (e.g. checking out the event and using the local race result Web Server, RRExchange acts a a server to receive exporter data.
+When working offline (e.g. checking out the event and using the local race result Web Server, RRExchange acts a REST API server to receive exporter data.
 
 {% hint style="info" %}
 Protocol is http (not https) and host is localhost:8181 (no www, take care with the :):\
 `http://localhost:8181`
 {% endhint %}
 
-| URL                                                                                                                                 | Export Data          |
-| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| <p>HTTP(S) Post</p><p>h<a href="http://localhost:8181/api/raceresult/exporter">ttp://localhost:8181/api/raceresult/exporter</a></p> | Raw Data Record JSON |
+| URL                                                                                                                                 | Export Data                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| <p>HTTP(S) Post</p><p>h<a href="http://localhost:8181/api/raceresult/exporter">ttp://localhost:8181/api/raceresult/exporter</a></p> | <p>Custom<br><code>[RD_TimingPoint]&#x26;";"&#x26;[Bib] &#x26; ";" &#x26; [Event.ID]</code></p> |
 
 ## Online & Offline
 
-Name can be defined as you like, e.g. RRExchange. Timing Point/Split and Filter can be set to whatever you need, however you can always filter in RRExchange as well - so best is to leave it on All.&#x20;
+_Name_ can be defined as you like, e.g. RRExchange. _Timing Point/Split_ and _Filter_ can be set to whatever you need, however you can always filter in RRExchange as well - so best is to leave it on _All_.&#x20;
