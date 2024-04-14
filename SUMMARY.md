@@ -2,7 +2,9 @@
 
 * [General](README.md)
   * [Installation](general/installation.md)
-  * [Configuration](general/configuration.md)
+  * [Configuration](readme/configuration/README.md)
+    * [Exporter](readme/configuration/exporter.md)
+    * [WebHooks](readme/configuration/webhooks.md)
 * [Operation Modes](operation-modes/README.md)
   * [Photofinish Sync](operation-modes/photofinish-sync.md)
   * [Displayboard](operation-modes/displayboard/README.md)
@@ -21,6 +23,7 @@
         * [Scripting](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/README.md)
           * [Custom Functions](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/custom-functions.md)
           * [Examples](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/examples.md)
+  * [Triggered Actions](operation-modes/triggered-actions.md)
 * [Scripting](scripting/README.md)
   * [Functions](scripting/functions.md)
   * [Examples](scripting/examples.md)

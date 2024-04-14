@@ -5,4 +5,4 @@
 *   When having multiple displayboards configured, individual displayboards can be moved up and down by using right click context menu:\
 
 
-    <figure><img src=".gitbook/assets/image (2).png" alt="" width="286"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="286"><figcaption></figcaption></figure>

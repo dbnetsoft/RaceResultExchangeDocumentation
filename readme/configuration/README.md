@@ -15,21 +15,10 @@ This settings can be found in `File` - `Settings`:
 
 Most settings need to be done in the software itself (`Settings` button in the navigation panel to the left), some settings directly in Race Result 12.
 
-<figure><img src="../.gitbook/assets/configuration_linkrr.png" alt=""><figcaption><p>Settings Dialog</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/configuration_linkrr.png" alt=""><figcaption><p>Settings Dialog</p></figcaption></figure>
 
 ### Setup Race Result Event <a href="#setup-race-result-event" id="setup-race-result-event"></a>
 
-The RR12 event does not need to be setup in any specific way. Our tool will get the data directly and is not relying on Simple API definitions.
+The RR12 event does not need to be setup with Simple API to pull data.&#x20;
 
-In order to use trigger sendings or drive display boards, RRExchange needs to receive the passings instantly to act upon them. This is achieved by Exports. You have to create one exporter and have it connect to RRExchange:
-
-*   Create one exporter as follows:
-
-    * Apply to all Timing Points
-    * No filter
-    * Destination is port 3611 on the machine that the RREXchange is running on (local webserver needs to be started usually)
-    * Export Data needs to contain the Timing point name and bib number in that order like so: `[RD_TimingPoint] & ";" & [RD_Bib]`
-
-
-
-    <figure><img src="../.gitbook/assets/rrexporter.png" alt=""><figcaption><p>RR12 Export Configuration</p></figcaption></figure>
+However, you might want to setup [web hooks ](webhooks.md)(for acting upon participant changes) or [exporters ](exporter.md)(for acting upon new raw data).&#x20;

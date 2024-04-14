@@ -10,7 +10,7 @@ Globals are a feature that allows three things:
 
 Variables will be made available in every script by using it's name.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## RR12 Lists
 
@@ -20,4 +20,4 @@ E.g. when you have a list define with name Test you can access the rows by using
 
 E.g. a column named Starttime can be access for the first row by using `Test.First.Starttime`.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
