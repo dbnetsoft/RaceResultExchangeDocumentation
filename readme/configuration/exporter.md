@@ -15,7 +15,9 @@ Protocol is https and host is raceresult.remoteredirect.com:\
 
 The following exporter need to be configured in RR12 (Timing - Exporters & Tracking - Exporters):
 
-<table><thead><tr><th width="159">Destination</th><th>URL</th><th>Export Data</th></tr></thead><tbody><tr><td>HTTP(S) Post</td><td><a href="http://localhost:8181/api/raceresult/exporter">https://raceresult.remoteredirect.com/api/raceresult/exporter</a></td><td>Raw Data Record JSON</td></tr></tbody></table>
+| URL                                                                                                                                                 | Export Data                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| <p>HTTP(S) Post</p><p>h<a href="http://localhost:8181/api/raceresult/exporter">ttps://raceresult.remoteredirect.com/api/raceresult/exporter</a></p> | <p>Custom<br><code>[RD_TimingPoint]&#x26;";"&#x26;[Bib] &#x26; ";" &#x26; [Event.ID]</code></p> |
 
 
 
@@ -28,7 +30,9 @@ Protocol is http (not https) and host is localhost:8181 (no www, take care with 
 `http://localhost:8181`
 {% endhint %}
 
-<table><thead><tr><th width="154">Destination</th><th>URL</th><th>Export Data</th></tr></thead><tbody><tr><td>HTTP(S) Post</td><td><a href="http://localhost:8181/api/raceresult/exporter">http://localhost:8181/api/raceresult/exporter</a></td><td>Raw Data Record JSON</td></tr></tbody></table>
+| URL                                                                                                                                 | Export Data          |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| <p>HTTP(S) Post</p><p>h<a href="http://localhost:8181/api/raceresult/exporter">ttp://localhost:8181/api/raceresult/exporter</a></p> | Raw Data Record JSON |
 
 ## Online & Offline
 
