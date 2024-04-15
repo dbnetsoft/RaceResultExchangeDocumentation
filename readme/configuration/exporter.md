@@ -15,9 +15,9 @@ Protocol is https and host is raceresult.remoteredirect.com:\
 
 The following exporter need to be configured in RR12 (Timing - Exporters & Tracking - Exporters):
 
-| URL                                                                                                                                                 | Export Data                                                                                     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| <p>HTTP(S) Post</p><p>h<a href="http://localhost:8181/api/raceresult/exporter">ttps://raceresult.remoteredirect.com/api/raceresult/exporter</a></p> | <p>Custom<br><code>[RD_TimingPoint]&#x26;";"&#x26;[Bib] &#x26; ";" &#x26; [Event.ID]</code></p> |
+| URL                                                                                                  | Export Data                                                                                     |
+| ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| <p>HTTP(S) Post</p><p><code>https://raceresult.remoteredirect.com/api/raceresult/exporter</code></p> | <p>Custom<br><code>[RD_TimingPoint]&#x26;";"&#x26;[Bib] &#x26; ";" &#x26; [Event.ID]</code></p> |
 
 
 
@@ -30,9 +30,9 @@ Protocol is http (not https) and host is localhost:8181 (no www, take care with 
 `http://localhost:8181`
 {% endhint %}
 
-| URL                                                                                                                                 | Export Data                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| <p>HTTP(S) Post</p><p>h<a href="http://localhost:8181/api/raceresult/exporter">ttp://localhost:8181/api/raceresult/exporter</a></p> | <p>Custom<br><code>[RD_TimingPoint]&#x26;";"&#x26;[Bib] &#x26; ";" &#x26; [Event.ID]</code></p> |
+| URL                                                                                  | Export Data                                                                                     |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| <p>HTTP(S) Post</p><p><code>http://localhost:8181/api/raceresult/exporter</code></p> | <p>Custom<br><code>[RD_TimingPoint]&#x26;";"&#x26;[Bib] &#x26; ";" &#x26; [Event.ID]</code></p> |
 
 ## Online & Offline
 

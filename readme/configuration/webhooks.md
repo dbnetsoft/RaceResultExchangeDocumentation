@@ -1,6 +1,6 @@
 # WebHooks
 
-Web Hooks need only to be created when you want to use the [Triggered Action](../../operation-modes/triggered-actions.md) feature (e.g. print a bib when new competitor is created) on participant changes.
+eb Hooks need only to be created when you want to use the [Triggered Action](../../operation-modes/triggered-actions.md) feature (e.g. print a bib when new competitor is created) on participant changes.
 
 Depending whether you work online or offline, your RR12 event needs to be configured slightly different.
 
@@ -15,7 +15,7 @@ Protocol is https and host is raceresult.remoteredirect.com:\
 
 The following web hooks need to be configured in RR12 (Main Window - Access Rights/Simplae API - Web Hooks):
 
-<table><thead><tr><th width="138">Type</th><th>URL</th><th width="96">Filter</th><th>Fields</th></tr></thead><tbody><tr><td>New Participant</td><td><a href="https://raceresult.remoteredirect.com/api/raceresult/newparticipant">https://raceresult.remoteredirect.com/api/raceresult/newparticipant</a></td><td></td><td>ID;Bib;Lastname</td></tr><tr><td>Participant updated</td><td><a href="https://raceresult.remoteredirect.com/api/raceresult/updateparticipant">https://raceresult.remoteredirect.com/api/raceresult/updateparticipant</a></td><td></td><td>ID;Bib;Lastname</td></tr></tbody></table>
+<table><thead><tr><th width="138">Type</th><th>URL</th><th width="96">Filter</th><th>Fields</th></tr></thead><tbody><tr><td>New Participant</td><td><code>https://raceresult.remoteredirect.com/api/raceresult/newparticipant</code></td><td></td><td><code>ID;Bib;Lastname</code></td></tr><tr><td>Participant updated</td><td><code>https://raceresult.remoteredirect.com/api/raceresult/updateparticipant</code></td><td></td><td><code>ID;Bib;Lastname</code></td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>RR12 Configuration when working online</p></figcaption></figure>
 
@@ -30,6 +30,6 @@ Protocol is http (not https) and host is localhost:8181 (no www, take care with 
 
 The following web hooks need to be configured in RR12 (Main Window - Access Rights/Simple API - Web Hooks):
 
-<table><thead><tr><th width="138">Type</th><th>URL</th><th width="96">Filter</th><th>Fields</th></tr></thead><tbody><tr><td>New Participant</td><td><a href="http://localhost:8181">http://localhost:8181</a>/<a href="https://raceresult.remoteredirect.com/api/raceresult/newparticipant">api/raceresult/newparticipant</a></td><td></td><td>ID;Bib;Lastname</td></tr><tr><td>Participant updated</td><td><a href="http://localhost:8181">http://localhost:8181</a>/<a href="https://raceresult.remoteredirect.com/api/raceresult/updateparticipant">api/raceresult/updateparticipant</a></td><td></td><td>ID;Bib;Lastname</td></tr></tbody></table>
+<table><thead><tr><th width="138">Type</th><th>URL</th><th width="96">Filter</th><th>Fields</th></tr></thead><tbody><tr><td>New Participant</td><td><code>http://localhost:8181/api/raceresult/newparticipant</code></td><td></td><td><code>ID;Bib;Lastname</code></td></tr><tr><td>Participant updated</td><td><code>http://localhost:8181/api/raceresult/updateparticipant</code></td><td></td><td><code>ID;Bib;Lastname</code></td></tr></tbody></table>
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>RR12 Configuration when working offline</p></figcaption></figure>
