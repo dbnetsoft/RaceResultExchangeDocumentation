@@ -32,4 +32,4 @@ The following web hooks need to be configured in RR12 (Main Window - Access Righ
 
 <table><thead><tr><th width="138">Type</th><th>URL</th><th width="96">Filter</th><th>Fields</th></tr></thead><tbody><tr><td>New Participant</td><td><code>http://localhost:8181/api/raceresult/newparticipant</code></td><td></td><td><code>ID;Bib;Lastname</code></td></tr><tr><td>Participant updated</td><td><code>http://localhost:8181/api/raceresult/updateparticipant</code></td><td></td><td><code>ID;Bib;Lastname</code></td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>RR12 Configuration when working offline</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p>RR12 Configuration when working offline</p></figcaption></figure>
