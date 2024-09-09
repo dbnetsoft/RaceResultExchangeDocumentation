@@ -5,6 +5,7 @@
   * [Configuration](readme/configuration/README.md)
     * [Exporter](readme/configuration/exporter.md)
     * [WebHooks](readme/configuration/webhooks.md)
+  * [Licensing](readme/licensing.md)
 * [Operation Modes](operation-modes/README.md)
   * [Photofinish Sync](operation-modes/photofinish-sync.md)
   * [Displayboard](operation-modes/displayboard/README.md)
