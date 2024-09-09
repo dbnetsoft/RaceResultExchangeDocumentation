@@ -10,4 +10,4 @@ The following operation modes are provided:
 * `Passings` shows the passings template (usually for showing each passings one after the other, sequentially and queued up)
 * `Timetrial` shows the time trial template (usually for showing a running time for each athlete passing an announcer timing point and then waiting for a finish passing)
 
-For a list of all possible placeholders to be used in the templates see [scripting ](../scripting.md)for further details.
+For a list of all possible placeholders to be used in the templates see [scripting ](../scripting/)for further details.

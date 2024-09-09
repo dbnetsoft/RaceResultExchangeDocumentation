@@ -1,6 +1,6 @@
 # Scripting
 
-See [scripting ](../../scripting/)for further details on how scripting and placeholders work.
+See [scripting ](../../../scripting/)for further details on how scripting and placeholders work.
 
 ### Internal Fields <a href="#internal-fields" id="internal-fields"></a>
 
