@@ -49,8 +49,8 @@ If so, remove all of it and replace it with this code:
 
 ```
 {{
-     # Check for any scheduled at all
-    if ( StartClockTest.First.NextStarttime != "")
+     # Check for any scheduled at all (either no row at all or empty starttime)
+     if (StartClockTest.First != null && StartClockTest.First.NextStarttime != "")
        # Get current time
        now = Clock
         # Convert time of day to time span
