@@ -1,4 +1,4 @@
-# Copy of Clock, Runtime, Gaptime (Offline)
+# Clock, Runtime, Gaptime (Offline)
 
 The following script allows to show the current clock before the start of the race, a runtime during the race and a gap time to winner as soon as the first athlete finishes.&#x20;
 
