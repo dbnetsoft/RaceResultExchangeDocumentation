@@ -8,7 +8,7 @@ Our licenses are no subscriptions, therefore the user has to renew his license i
 
 You can access the state of your curent license by clicking on the licensing button in the top right corner
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>Accessing license information</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Accessing license information</p></figcaption></figure>
 
 The licensing window will show you some data from your local computer (unique machine ID, machine name and user name) as well as shows the status of your license file
 

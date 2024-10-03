@@ -5,7 +5,7 @@
 *   Tome Trial mode in displays can be configured witha timeout, so athletes that do not make it to the finish from announcement are removed\
 
 
-    <figure><img src=".gitbook/assets/image.png" alt="" width="245"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (6).png" alt="" width="245"><figcaption></figcaption></figure>
 * Trigger Functionality: RRExchange can react on ceertain triggers and run some actions. This is possible via the use of web hooks.
   * Currently creation of a new participant is supported as trigger
   * Currently printing a certificateis supported as action

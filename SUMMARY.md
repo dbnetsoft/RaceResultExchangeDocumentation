@@ -14,6 +14,7 @@
       * [Runtime](operation-modes/displayboard/modes/runtime.md)
       * [Passings](operation-modes/displayboard/modes/passings.md)
       * [Timetrial](operation-modes/displayboard/modes/timetrial.md)
+      * [Lap Counter](operation-modes/displayboard/modes/lap-counter.md)
     * [Scripting](operation-modes/displayboard/scripting/README.md)
       * [Examples](operation-modes/displayboard/scripting/examples/README.md)
         * [Startclock](operation-modes/displayboard/scripting/examples/startclock.md)
