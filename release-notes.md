@@ -7,7 +7,7 @@
     * Click on gear s\<mbol next to display port
     * Go to _Port_ -> _Encoding_ and replace _UTF8_ with _ISO-8859-1_
 
-    <figure><img src=".gitbook/assets/AllowAccentsOnMled.gif" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/AllowAccentsOnMled.gif" alt="" width="375"><figcaption></figcaption></figure>
 
 #### 1.0.107 (2024-04-29)
 
