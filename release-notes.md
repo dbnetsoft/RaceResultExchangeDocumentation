@@ -4,7 +4,7 @@
 
 *   FDS MLED will show accents on lower case letters when using ISO-8859-1 as encoding - newly created display ports will use that as a default. Existing display ports can be changed to this encoding by doing the following:
 
-    * Click on gear s\<mbol next to display port
+    * Click on gear symbol next to display port
     * Go to _Port_ -> _Encoding_ and replace _UTF8_ with _ISO-8859-1_
 
     <figure><img src=".gitbook/assets/AllowAccentsOnMled.gif" alt="" width="375"><figcaption></figcaption></figure>
