@@ -1,5 +1,14 @@
 # Release Notes
 
+#### 1.0.119 (2024-11-03)
+
+*   FDS MLED will show accents on lower case letters when using ISO-8859-1 as encoding - newly created display ports will use that as a default. Existing display ports can be changed to this encoding by doing the following:
+
+    * Click on gear s\<mbol next to display port
+    * Go to _Port_ -> _Encoding_ and replace _UTF8_ with _ISO-8859-1_
+
+    <figure><img src=".gitbook/assets/AllowAccentsOnMled.gif" alt=""><figcaption></figcaption></figure>
+
 #### 1.0.107 (2024-04-29)
 
 *   Tome Trial mode in displays can be configured witha timeout, so athletes that do not make it to the finish from announcement are removed\
