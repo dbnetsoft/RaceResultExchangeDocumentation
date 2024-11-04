@@ -6,6 +6,7 @@
 
     * Click on gear symbol next to display port
     * Go to _Port_ -> _Encoding_ and replace _UTF8_ with _ISO-8859-1_
+    * Restart the application
 
     <figure><img src=".gitbook/assets/AllowAccentsOnMled.gif" alt="" width="375"><figcaption></figcaption></figure>
 

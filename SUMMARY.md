@@ -39,3 +39,4 @@
 * [Release Notes](release-notes.md)
 * [Frequently asked questions (FAQ)](frequently-asked-questions-faq/README.md)
   * [Gap Time Reference is not set from external pushbutton](frequently-asked-questions-faq/gap-time-reference-is-not-set-from-external-pushbutton.md)
+  * [Accents not shown on FDS MLED](frequently-asked-questions-faq/accents-not-shown-on-fds-mled.md)
