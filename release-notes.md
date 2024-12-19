@@ -1,5 +1,8 @@
 # Release Notes
 
+The following list only hightlight key changes that need more documentation. \
+All other changes are included in the [setup release notes](https://downloads.dbnetsoft.com/raceresultconnector/history.txt).
+
 #### 1.0.119 (2024-11-03)
 
 *   FDS MLED will show accents on lower case letters when using ISO-8859-1 as encoding - newly created display ports will use that as a default. Existing display ports can be changed to this encoding by doing the following:
