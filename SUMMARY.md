@@ -25,6 +25,7 @@
           * [Conditional formatting difftime](operation-modes/displayboard/displayboard-brands/fds-mled/scripting/conditional-formatting-difftime.md)
           * [Clock, Runtime, Gaptime (Globals)](operation-modes/displayboard/displayboard-brands/fds-mled/scripting/clock-runtime-gaptime-globals.md)
           * [Clock, Runtime, Gaptime (Offline)](operation-modes/displayboard/displayboard-brands/fds-mled/scripting/copy-of-clock-runtime-gaptime-offline.md)
+          * [Countdown to planned starttime and then runtime (Globals)](operation-modes/displayboard/displayboard-brands/fds-mled/scripting/countdown-to-planned-starttime-and-then-runtime-globals.md)
       * [ALGE-Timing GAZ/D-Line](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/README.md)
         * [Scripting](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/README.md)
           * [Custom Functions](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/custom-functions.md)
