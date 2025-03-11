@@ -2,7 +2,7 @@
 
 A "starting clock", like an ALGE ASC3, can be shown with RRExchange.&#x20;
 
-RR12 needs to have an output list containing the next starttime and the bib and name of the athlete to start. RRExchange will periodically pull this list via it's [Globals ](../../../../../scripting/globals.md)feature. Then you can use any of the pre-defined template and use it for displaying these values.&#x20;
+RR12 needs to have an output list containing the next starttime and the bib and name of the athlete to start. RRExchange will periodically pull this list via it's [Globals ](../../../../../scripting/globals/)feature. Then you can use any of the pre-defined template and use it for displaying these values.&#x20;
 
 ## Prepare RR12
 
