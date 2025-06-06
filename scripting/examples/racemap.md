@@ -34,8 +34,8 @@ end
 
 # Show texts based on distance
 if leadTrackerFound
-    if leadTrackerFound >0
-        "Distance to Finish: " + (distanceToFinish | Format "####0.0") + "m"
+    if distanceToFinish > 0
+        "Distance to Finish: " + ((distanceToFinish / 1000) | Format "####0.0") + "km"
      else 
        "Finished"
      end
