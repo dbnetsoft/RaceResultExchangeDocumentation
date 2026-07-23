@@ -32,6 +32,7 @@
           * [Clock](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/clock.md)
           * [Clock w/ flashing seperator](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/clock-w-flashing-seperator.md)
           * [Clock, Runtime, Gaptime](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/clock-runtime-gaptime.md)
+          * [Clock & Runtime](operation-modes/displayboard/displayboard-brands/alge-timing-gaz-d-line/scripting/clock-and-runtime.md)
   * [Triggered Actions](operation-modes/triggered-actions.md)
 * [Scripting](scripting/README.md)
   * [Functions](scripting/functions.md)
