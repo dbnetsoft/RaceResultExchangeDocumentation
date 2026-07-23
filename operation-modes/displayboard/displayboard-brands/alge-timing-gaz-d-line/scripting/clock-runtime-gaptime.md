@@ -12,7 +12,7 @@ This list is then pulled via RRExchange globals feature periodically into the so
 
 <figure><img src="https://dbnetsoft.github.io/RaceResultExchangeDocumentation/scripting/globals.png" alt="" width="375"><figcaption></figcaption></figure>
 
-The pulled global list entries are available as variables in each script then. They are identified by .First., e.g. `GlobalsName.First.Starttime` for a RR12 field named `Starttime` in a globals list `GlobalsName`.
+The pulled global list entries are available as variables in each script then. They are identified by .First., e.g. `Globals.First.Starttime` for a RR12 field named `Starttime` in a globals list `Globals`.
 
 ```
 {{
@@ -20,8 +20,8 @@ The pulled global list entries are available as variables in each script then. T
 now = timespan.Now | ToSeconds
 
 # Fetch race start time and winner time from Globals List and convert to seconds (this way RR12 field can be seconds or HH:mm:ss string
-raceStartedAt = StartAndWinnerList.First.Starttime | ToSeconds
-winnerFinishedAt = StartAndWinnerList.First.Winnertime  | ToSeconds
+raceStartedAt = Globals.First.Starttime | ToSeconds
+winnerFinishedAt = Globals.First.Winnertime  | ToSeconds
 
 # Determine race states
 isRaceStarted = raceStartedAt > 0
@@ -44,7 +44,9 @@ if isRaceStarted
 
         # Calculate runtime
         timeSinceStart = now - raceStartedAt
-    timeSinceStart | gaz.Format "Seconds" false
+        
+        # Display formatted
+        timeSinceStart | gaz.Format "Seconds" false
 
     end
 
