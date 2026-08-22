@@ -3,6 +3,20 @@
 The following list only hightlight key changes that need more documentation. \
 All other changes are included in the [setup release notes](https://downloads.dbnetsoft.com/raceresultconnector/history.txt).
 
+#### xxxx
+
+* Channel mappings can be assigned a description to better indicate what the mapping is for (e.g. Start)
+
+<figure><img src=".gitbook/assets/2026-08-22_11-07-44.gif" alt="" width="301"><figcaption></figcaption></figure>
+
+* Received impulses can be forwardfed with a different bib
+
+<figure><img src=".gitbook/assets/2026-08-22_11-30-38.gif" alt="" width="333"><figcaption></figcaption></figure>
+
+* An override for the next bibs can be set - when set, next impulses are assigned to the first bib ion the text box. Multiple bibs can be defined and will be consumed and advanced
+
+<figure><img src=".gitbook/assets/2026-08-22_11-34-40.gif" alt="" width="310"><figcaption></figcaption></figure>
+
 #### 1.0.119 (2024-11-03)
 
 *   FDS MLED will show accents on lower case letters when using ISO-8859-1 as encoding - newly created display ports will use that as a default. Existing display ports can be changed to this encoding by doing the following:
@@ -15,8 +29,7 @@ All other changes are included in the [setup release notes](https://downloads.db
 
 #### 1.0.107 (2024-04-29)
 
-*   Tome Trial mode in displays can be configured witha timeout, so athletes that do not make it to the finish from announcement are removed\
-
+*   Tome Trial mode in displays can be configured witha timeout, so athletes that do not make it to the finish from announcement are removed<br>
 
     <figure><img src=".gitbook/assets/image (6).png" alt="" width="245"><figcaption></figcaption></figure>
 * Trigger Functionality: RRExchange can react on ceertain triggers and run some actions. This is possible via the use of web hooks.
@@ -28,7 +41,6 @@ All other changes are included in the [setup release notes](https://downloads.db
 
 #### 1.0.106 (2024-03-04)
 
-*   When having multiple displayboards configured, individual displayboards can be moved up and down by using right click context menu:\
-
+*   When having multiple displayboards configured, individual displayboards can be moved up and down by using right click context menu:<br>
 
     <figure><img src=".gitbook/assets/image (2) (1).png" alt="" width="286"><figcaption></figcaption></figure>

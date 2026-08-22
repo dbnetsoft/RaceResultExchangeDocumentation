@@ -6,4 +6,4 @@
    ![](<../.gitbook/assets/image (15).png>)
 3. Whenever the pushbutton is clicked, the reference time should be set accordingly\
    <img src="../.gitbook/assets/image (16).png" alt="" data-size="original">
-4. Setup the script same way as described [here](../operation-modes/displayboard/displayboard-brands/fds-mled/scripting/clock-runtime-gaptime-globals.md). \
+4. Setup the script same way as described [here](../operation-modes/displayboard/displayboard-brands/fds-mled/scripting/clock-runtime-gaptime-globals.md). <br>
