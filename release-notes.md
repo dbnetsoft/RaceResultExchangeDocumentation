@@ -3,7 +3,7 @@
 The following list only hightlight key changes that need more documentation. \
 All other changes are included in the [setup release notes](https://downloads.dbnetsoft.com/raceresultconnector/history.txt).
 
-#### xxxx
+#### 26.8.1 (2026-08-22)
 
 * Channel mappings can be assigned a description to better indicate what the mapping is for (e.g. Start)
 
