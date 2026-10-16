@@ -8,6 +8,10 @@ In order to receive raw data passings and RRExchange can act upon them (e.g. to 
 
 Our RemoteRedirect webservice provides a bridge between RR12 working online that can only access public web servers and RRExchange running locally.&#x20;
 
+{% hint style="warning" %}
+Using a local RACE RESULT Webserver and conencting locally is always recommended for both performance and stability. Use our online service only as a last resort/backup.
+{% endhint %}
+
 {% hint style="info" %}
 Protocol is https and host is raceresult.remoteredirect.com:\
 `https://raceresult.remoteredirect.com`
