@@ -4,6 +4,14 @@ Exporters need to be created when you want to have RRExchange react upon the arr
 
 In order to receive raw data passings and RRExchange can act upon them (e.g. to display rank and time on a displayboard or to trigger a HTTP POST), RR12 exchange needs to define an exporter to send data to us.&#x20;
 
+## Offline (preferred)
+
+Best is to start the local RACE RESULT webserver and have an export point to the same machine. The following exporter need to be configured in RR12 (Timing - Exporters & Tracking - Exporters):
+
+| URL                                             | Export Data                                                             |
+| ----------------------------------------------- | ----------------------------------------------------------------------- |
+| <p>TCP/IP</p><p><code>localhost:3611</code></p> | <p>Custom</p><p><code>[RD_TimingPoint] &#x26; ";"&#x26;[Bib]</code></p> |
+
 ## Online
 
 Our RemoteRedirect webservice provides a bridge between RR12 working online that can only access public web servers and RRExchange running locally.&#x20;
